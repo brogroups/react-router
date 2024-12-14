@@ -1,11 +1,9 @@
-import Header from '././Pages/Header.js';
-import Footer from './components/Footer.js';
 import './assets/App.css';
 function App() {
+  const data = 40+"4"
   return (
     <div className="App">
-      <Header/>
-      <Footer/> 
+      {data}
     </div>
   );
 }
